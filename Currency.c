@@ -9,6 +9,8 @@ int main()
    {
        printf("Error");
    }
+   else
+   {
    int denomination[]={2000,500,100,50,10,5,2,1};
    int denomination_freq[10];
    
@@ -29,6 +31,6 @@ int main()
    {
        printf("%d ",denomination_freq[j]);
    }
-
+   }
     return 0;
 }
